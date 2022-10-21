@@ -336,7 +336,7 @@ public class Solve {
             }
         }
         
-        Pattern pattern = Pattern.compile("([a-zA-Z]+)\\((.+)\\)");
+        Pattern pattern = Pattern.compile("([a-zA-Z]+)\\((.*)\\)");
         Matcher matcher = pattern.matcher(command);
         boolean matchFound = matcher.find();
         if (matchFound)
